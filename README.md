@@ -74,7 +74,8 @@ Thanks to AMD for Ryzen™ AI hardware innovation, and the open-source community
 
 ---
 =======
-<p align="center">
+=======
+    <p align="center">
   <a href="https://www.fastflowlm.com" target="_blank">
     <img src="assets/logo.png" alt="FastFlowLM Logo" width="200"/>
   </a>
