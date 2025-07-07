@@ -32,7 +32,7 @@ flm serve llama3.2:1B
 ```
 > The model tag (e.g., `llama3.2:1B`) sets the initial model, which is optional. If another model is requested, FastFlowLM will automatically switch to it. Local server is on port 11434 (default).
 
-For best performance, it is recommended to set the NPU power mode to **performance** or **turbo**. Open **PowerShell** and god to:
+For best performance, it is recommended to set the NPU power mode to **performance** or **turbo**. Open **PowerShell** and change path to:
 ```powershell
 cd C:\Windows\System32\AMD\
 ```
@@ -44,7 +44,27 @@ Then, run
 
 ---
 
-## ⚡ Performance That Speaks for Itself
+## 🧠 Local AI on Your NPU
+
+FastFlowLM makes it easy to run modern LLMs locally with:
+- ⚡ Fast and low power
+- 🧰 Simple CLI and API
+- 🔐 Fully private and offline
+
+No model rewrites, no tuning — it just works.
+
+---
+
+## ✅ Features
+
+- **Runs fully on AMD Ryzen™ NPU** — no GPU or CPU load  
+- **Developer-first flow** — like Ollama, but optimized for NPU  
+- **Support for long context windows** — up to 128k tokens (e.g., LLaMA 3.1/3.2)  
+- **No low-level tuning required** — You focus on your app, we handle the rest
+
+---
+
+## ⚡ Performance
 
 Compared to AMD Ryzen™ AI Software 1.4 (GAIA or Lemonade):
 
@@ -57,8 +77,21 @@ Compared to AMD Ryzen™ AI Software 1.4 (GAIA or Lemonade):
 - Up to **11.38× more efficient** in LLM decoding *(vs hybrid iGPU+NPU baseline)*
 - Up to **3.4× more efficient** in LLM prefill *(vs NPU-only or hybrid baseline)*
 
+<<<<<<< HEAD
 ### ⏱️ Latency *(LLM Prefill Speed)*
 - **Matches or exceeds** the **Time to First Token (TTFT)** of **NPU-only** or **hybrid** baselines
+=======
+### Latency
+- ⏱️ **Matches or exceeds** TTFT (Time to First Token) of NPU-only or hybrid mode
+
+### Benchmarks
+<p style="font-size:85%; margin:0;">
+📊 View the detailed results here:
+<a href="https://docs.fastflowlm.com/benchmarks/" style="text-decoration:none;">
+<strong>[Benchmark results]</strong>
+</a>
+</p>
+>>>>>>> 0350ec2 (ready to go public)
 
 ---
 
