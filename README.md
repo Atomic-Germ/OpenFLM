@@ -25,6 +25,22 @@ Models run **entirely on the Ryzen™ NPU**, leaving your CPU and GPU free for o
 
 ### 📏 Full Context Window Support
 Supports context windows up to **128k tokens** on LLaMA 3.1/3.2—ideal for long-form reasoning and RAG applications.
+=======
+To start the local REST API server (Server Mode):
+```
+flm serve llama3.2:1B
+```
+> The model tag (e.g., `llama3.2:1B`) sets the initial model, which is optional. If another model is requested, FastFlowLM will automatically switch to it. Local server is on port 11434 (default).
+
+For best performance, it is recommended to set the NPU power mode to **performance** or **turbo**. Open **PowerShell** and god to:
+```powershell
+cd C:\Windows\System32\AMD\
+```
+Then, run
+```powershell
+.\xrt-smi configure --pmode turbo
+```
+> For more details about NPU power mode, refer to the [AMD XRT SMI Documentation](https://ryzenai.docs.amd.com/en/latest/xrt_smi.html).
 
 ---
 
