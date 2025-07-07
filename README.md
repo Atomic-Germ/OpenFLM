@@ -90,6 +90,7 @@ Compared to AMD Ryzen™ AI Software 1.4 (GAIA or Lemonade):
 
 ---
 
+<<<<<<< HEAD
 ## 🚀 Get Started
 
 Coming soon: setup instructions, model loading guide, and API examples.
@@ -98,7 +99,6 @@ Coming soon: setup instructions, model loading guide, and API examples.
 
 ## 🧪 Supported Models
 
-<<<<<<< HEAD
 - Meta LLaMA 2 / 3
 - DeepSeek-V2 / R1
 - Phi-2 / Phi-3
@@ -106,6 +106,9 @@ Coming soon: setup instructions, model loading guide, and API examples.
 - And more...
 =======
 Documentation and example workflows [Link](https://docs.fastflowlm.com/). Like Ollama, you can:
+=======
+## 🛠️ Instructions
+
 - Load and run models locally via CLI (Interactive Mode)
 - Integrate into your app via a simple REST API via a local server (Server Mode)
 > Compatible with tools like **Microsoft AI Toolkit**, **Open WebUI**, and more.
