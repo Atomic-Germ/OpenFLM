@@ -77,12 +77,8 @@ Compared to AMD Ryzen™ AI Software 1.4 (GAIA or Lemonade):
 - Up to **11.38× more efficient** in LLM decoding *(vs hybrid iGPU+NPU baseline)*
 - Up to **3.4× more efficient** in LLM prefill *(vs NPU-only or hybrid baseline)*
 
-<<<<<<< HEAD
 ### ⏱️ Latency *(LLM Prefill Speed)*
 - **Matches or exceeds** the **Time to First Token (TTFT)** of **NPU-only** or **hybrid** baselines
-=======
-### Latency
-- ⏱️ **Matches or exceeds** TTFT (Time to First Token) of NPU-only or hybrid mode
 
 ### Benchmarks
 <p style="font-size:85%; margin:0;">
@@ -91,7 +87,6 @@ Compared to AMD Ryzen™ AI Software 1.4 (GAIA or Lemonade):
 <strong>[Benchmark results]</strong>
 </a>
 </p>
->>>>>>> 0350ec2 (ready to go public)
 
 ---
 
@@ -103,11 +98,17 @@ Coming soon: setup instructions, model loading guide, and API examples.
 
 ## 🧪 Supported Models
 
+<<<<<<< HEAD
 - Meta LLaMA 2 / 3
 - DeepSeek-V2 / R1
 - Phi-2 / Phi-3
 - Command-R / Zephyr
 - And more...
+=======
+Documentation and example workflows [Link](https://docs.fastflowlm.com/). Like Ollama, you can:
+- Load and run models locally via CLI (Interactive Mode)
+- Integrate into your app via a simple REST API via a local server (Server Mode)
+> Compatible with tools like **Microsoft AI Toolkit**, **Open WebUI**, and more.
 
 ---
 
